@@ -232,3 +232,57 @@ max-width: 50%;
 
 /* experience section end */
 
+/* award start  */
+
+.awards{
+    padding-bottom:  170px;
+}
+.award-title{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 20px;
+
+}
+.award-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.award{
+    padding: 42px;
+    background-color: #000;
+    margin-bottom: 27px;
+
+}
+.award-name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:24px ;
+}
+.award h4{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+}
+.award h5{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+}
+.award p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+    width: 70%;
+}
+
+
+/* award end */
+
+
