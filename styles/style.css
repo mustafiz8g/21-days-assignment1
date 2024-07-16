@@ -13,6 +13,7 @@
 
  header,main{
     background: rgb(30, 30, 30);
+    padding-bottom: 110px;
  }
 
 /* nav section  */
@@ -367,13 +368,112 @@ max-width: 50%;
     font-weight: 600;
     padding-bottom: 17px;
     text-align: center;
+    font-style: italic;
  }
  .reach h1{
     color: rgb(255, 255, 255);
     font-size: 40px;
     font-weight: 700;
     text-align: center;
+    margin-bottom: 48px;
+ }
+
+ .project-form{
+    max-width: 1040px;
+    height: 386px;
+    background: rgba(253, 111, 0, 0.1);
+    padding: 64PX 110PX 80PX 110PX;
  }
   
+ .name-email{
+    gap: 60px;
+    display: flex;
+ }
+ 
+ .name-email input[type="text"],input[type="email"],textarea{
+     color: #fff;
+     font-size: 16px;
+     font-weight: 500;
+     border: none;
+     background-color: transparent;
+     border-bottom: 1.5px solid rgb(255, 255, 255);
+     width: 375px;
+     height: 34px;
+     padding-bottom: 10px;
+    }
+    #textarea{
+        width: 811px;
+        padding-bottom: 40px;
+        margin-top: 45px;
+    }
+    .attach{
+       border-bottom: ;
+       margin-top: 16px;
+       color: #fff;
+       font-size: 16px;
+       font-weight: 500;
+       border: none;
+       background-color: transparent;
+     
+      
+       padding-bottom: 16px;
+    }
+    #submit{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 18px 40px 18px 40px;
+    background-color: #FD6F00;
+    border: none;
+    margin-top: 30px;
+ }
  /* reach section end  */
+/* footer start  */
+footer{
+    background: rgb(30, 30, 30);}
+ .logo{
+    background-color:#000;
+ }
+ .logo h1{
+    color: rgb(253, 111, 0);
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 50px;
+ }
+ .logo ul{
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .logo a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-weight: 400;
+ }
+ .social{
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    color: #fff;
+    padding-top: 70px;
+    padding-bottom: 50px;
+ }
 
+ footer p{
+    font-size: 21px;
+    font-weight: 400;
+    text-align: center;
+    padding: 26px;
+    color: #fff;
+ }
+ footer span{
+    color:#FD6F00 ;
+    font-size: 21px;
+    font-weight: 500;
+ }
+/* footer end */
