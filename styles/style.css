@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+     font-family: "Rubik", sans-serif;
+}
+ .container{
+    max-width: 1040px  ;
+    margin: 0 auto;
+ }
+
+
+
+ header{
+    background: rgb(30, 30, 30);
+ }
+
+/* nav section  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 77px; */
+     padding-top: 77px;
+    padding-bottom: 45px;
+ }
+nav h1{
+    color: #FD6F00;
+    font-size: 32px;
+    font-weight: 700;
+}
+nav ul{
+ display: flex;
+list-style: none;
+justify-content: ;
+align-items: center;
+gap: 35px;
+    
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Rubik;
+    font-size: 21px;
+    font-weight: 400;
+}
+nav button{
+    background: rgb(253, 111, 0);
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+    font-weight: 400;
+    border: none;
+    padding: 18px 25px;
+}
+/* nav end  */
+/* banner start*/
+
+
+.banner{
+    max-width: 1040px  ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.banner h1{
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: -1.5%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.banner h2{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 300;
+}
+.banner p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.icon {
+    width: 70px;
+    height: 70px;
+    fill: orange;
+    transform: rotate(-3.97deg);
+    position: relative;
+    top: 25px;
+}
+.portfolio-hire{
+    box-sizing: border-box;
+    border-radius: 50px;
+    width: 347px;
+    height: 76px;
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin-top: 45px;
+    padding: 12.5px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid  rgba(255, 255, 255, 0.4);
+    margin-bottom: 32px;
+ 
+}
+
+.portfolio{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 60px;
+
+    background:#FD6F00;
+}
+.fa-arrow-right{
+    transform: rotate(-45deg);
+}
+.hire{
+    margin-right: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 25.69px;
+    font-weight: 400;
+    background-color: transparent;
+    border: none;
+}
+.social-link i{
+  margin-right: 25px;
+  font-size: 32.5px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.banner img{
+    
+    border-radius: 36%;
+    /* background-color: black; */
+}
+.banner-img{
+    position: relative;
+    z-index: 1;
+}
+.bg-border{
+  width: 375px;
+  height: 375px;
+  border-radius: 50%;
+  border: 5px solid rgb(253, 111, 0);
+  position:absolute;
+  bottom: -16px;
+  right: -11px;
+  z-index:-1 ;
+}
+/* banner end*/
