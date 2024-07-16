@@ -11,7 +11,7 @@
 
 
 
- header{
+ header,main{
     background: rgb(30, 30, 30);
  }
 
@@ -62,22 +62,17 @@ nav button{
     display: flex;
     justify-content: space-between;
 }
-.banner h1{
+.banner h1,.about h1,.experience h1{
     color: rgb(255, 255, 255);
-    font-family: Rubik;
     font-size: 40px;
     font-weight: 700;
-    line-height: 47px;
-    letter-spacing: -1.5%;
-    text-align: left;
-    text-transform: uppercase;
 }
 .banner h2{
     color: rgb(255, 255, 255);
     font-size: 24px;
     font-weight: 300;
 }
-.banner p{
+.banner p,.about p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 18px;
     font-weight: 400;
@@ -152,4 +147,88 @@ nav button{
   right: -11px;
   z-index:-1 ;
 }
+
 /* banner end*/
+
+/* about start  */
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    padding-bottom: 60px;
+}
+.about .star{
+    color: #FD853A;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+.about h5{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
+}
+
+/* about end */
+
+/* experience section start */
+  .experience{
+    background: linear-gradient(-87.34deg, rgba(255, 177, 71, 0.1) 5.887%,rgba(255, 108, 99, 0.1) 50.525%,rgba(184, 106, 223, 0.1) 91.686%);
+   
+    
+  }
+  .experience-content{
+    display: flex;
+    justify-content: space-between;
+    height: 630px;
+    align-items: center;
+  }
+ .experience-text h5{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    padding-bottom: 14px;
+ }
+ .experience-text p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+ }
+
+.experience-text{
+    max-width: 50%;
+}
+.experience-role{
+max-width: 50%;
+}
+.role{
+    border-bottom: 1px solid rgba(200, 199, 199, 0.2);
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.role-time{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+.role h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.role h5{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+}
+.role h6{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* experience section end */
+
