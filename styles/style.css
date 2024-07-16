@@ -235,9 +235,9 @@ max-width: 50%;
 /* award start  */
 
 .awards{
-    padding-bottom:  170px;
+      
 }
-.award-title{
+.section-title{
     color: rgb(255, 255, 255);
     font-size: 40px;
     font-weight: 800;
@@ -246,7 +246,7 @@ max-width: 50%;
     margin-bottom: 20px;
 
 }
-.award-description{
+.section-description{
     color: rgba(255, 255, 255, 0.5);
     font-size: 18px;
     font-weight: 400;
@@ -280,9 +280,100 @@ max-width: 50%;
     font-size: 18px;
     font-weight: 400;
     width: 70%;
+
 }
 
 
 /* award end */
+/* my portfolio start  */
+.my-portfolio{
+    padding-bottom:150px ;
+}
+.sectors{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    gap: 17px;
+    padding-bottom: 55px;
+    
+}
+.sectors button{
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    box-sizing: border-box;
+    border: 0.4px solid rgb(84, 84, 84);
+    background: rgb(0, 0, 0);
+}
+#btn-orrange{
+    background-color: #FD6F00;
+}
 
+ .bally1{
+ display: flex;
+ gap: 35px;
+ align-items: center;
+ margin-bottom: 60px;
+ }
+ .bally2{
+    display: flex;
+    gap: 35px;
+    align-items: center; 
+    flex-direction: row-reverse;
+ }
+
+ .img-container{
+    width: 850px;
+    height: 340px;
+    background-color: #000;
+    position: relative;
+ }
+ .img1{
+    position: absolute;
+    right:33px ;
+ }
+ .img2{
+    position: absolute;
+    left: 33px;
+    bottom: 0px;
+    box-shadow: 7px -1.5px 4px 0px rgba(82, 74, 74, 0.16);
+ }
+ .bally1 h5,.bally2 h5{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;  
+    font-style: italic;
+ }
+ .bally1 h1,.bally2 h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 24px;
+ }
+ .bally1 p, .bally2 p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+
+ }
+/* my portfolio end */
+ /* reach section start  */
+  
+ .reach h5{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 17px;
+    text-align: center;
+ }
+ .reach h1{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+ }
+  
+ /* reach section end  */
 
